@@ -8,7 +8,6 @@ function set()
         /*console.log( selec.value );*/
 	console.log( sel.value +'/'+sele.value+'/'+selec.value);
 	document.getElementById("myLink").innerHTML=sel.value +'/'+sele.value+'/'+selec.value;
-	return sel.value,sele,selec;
 }	
 	document.getElementById('set').addEventListener('click',set);
 	
